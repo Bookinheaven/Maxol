@@ -61,14 +61,41 @@ A responsive and performant web application to discover, search, and favorite mo
 
 ---
 
-## 🧪 To Run Locally
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://https://github.com/Bookinheaven/Maxol.git
+git clone https://github.com/Bookinheaven/Maxol.git
 cd Maxol
-npm install
-npm run dev
 ````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Setup Environment Variables
+
+Create a `.env` file in the root directory with the following keys:
+
+```env
+VITE_TMDB_BASE_URL='https://api.themoviedb.org/3'
+VITE_TMDB_IMAGE_BASE='https://image.tmdb.org/t/p/original'
+VITE_TMDB_AUTH='Bearer api'
+
+```
+
+### 4. Run the App
+
+```bash
+npm run dev
+```
+
+Your app will be available at `http://localhost:5173`.
+
+
 
 Make sure to replace the placeholder API keys (e.g., TMDB API key) inside your `api/apidb.js`.
 
