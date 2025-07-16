@@ -95,10 +95,6 @@ npm run dev
 
 Your app will be available at `http://localhost:5173`.
 
-
-
-Make sure to replace the placeholder API keys (e.g., TMDB API key) inside your `api/apidb.js`.
-
 ---
 
 ## 💡 Future Improvements
